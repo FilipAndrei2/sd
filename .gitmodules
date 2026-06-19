@@ -1,0 +1,6 @@
+[submodule "laburi_rezolvate_laurentiu_goat"]
+	path = laburi_rezolvate_laurentiu_goat
+	url = https://github.com/HCCJPR/SISTEME_DISTRIBUITE
+[submodule "bile"]
+	path = bile
+	url = https://github.com/DariaAdelinne/Bile
