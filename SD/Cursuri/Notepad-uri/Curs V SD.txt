@@ -1,0 +1,82 @@
+Cloud
+
+
+Serviciile Amazon 
+
+- au sisteme de distributie LINUX
+- Elastic Compute Cloud
+- Simple Storage Service
+- SimpleDB
+- CloudFront
+
+
+Windows Azure
+
+- aplicatii executabile in Cloud
+- probleme de securitate si stabilitate
+
+
+Cloud
+
+- esenta cloud-ului : virtualizare (???)
+
+Virtualizare
+
+- Translare binara : doar cand kernelul este apelat (???)
+- abstractizarea sistemului de operare, aplicatiilor si zonelor de pastrare
+a datelor sau a retelei de comunicatii fata de suportul hardware si software care permite
+acest proces
+- Virtualizare Red Hat (???)
+- Tipuri de virtualizare
+	- completa
+	- para virtualizare
+	- hibrida
+- Virtualizare completa : simulare completa a unui hardware sau software
+	- pe soft ( translate binara ) si emuleaza hardul folosind instructiuni soft compatibile
+	- pe hard : se bazeaza pe suportul nativ de hardware, se pot executa direct pe procesor
+	- hypervisor : (???)
+
+- Hypervisor de tip 2
+	- masina virtuala peste sistem de operare 
+	- incarcare destul de mare ( pt o comanda se trece printr un lant de apeluri specifice 
+	masinei virtuale, dar si pe gazda pt compatibilitate si executie)
+
+- Paravirtualizare
+	- XEN (???)
+	- peste sistemul gazda, nu se instaleaza un sistem de operare oaspete full, ci modificat astfel
+	incat sa se potriveasca cu hardware ul; aceasta se face cu niste drivere instalate in spate
+	de masina virtuala
+	- elimina incarcarea excesiva
+
+- Virtualizare la nivel de sistem de operare
+	- Oracle Solaris
+	- Docker (??? pt tema)
+
+
+
+
+
+
+- Terminologie si concepte Cloud
+	- Hiperconvergenta ???
+	- Centru de calcul cu patru straturi 
+	- Platforma hip
+
+- Arhitectura Cloud
+	- n level n tier
+	- echilibrarea incarcarii
+	- multe cozi
+
+- Nivel de prezentare Cloud
+	- pagini web cu servicii disponibile
+	- infrastructura elastica
+	- multiplicare verticala : se poate muta pe alta masina
+	- multiplicare orizontala : se muta si pe alte masini si se distribuie resursele pt eliminarea incarcarii (trebuie facuta jurnalizare)
+	- nivel 2
+
+
+.....
+
+- Conditia umana nu poate face peste noapte salturi tehnologice foarte mari.
+- Tipuri de arhitecturi
+- Scalabilitate

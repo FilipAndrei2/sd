@@ -1,0 +1,219 @@
+Laborator 2
+
+jee vs multitier
+eis 
+ciclul de stare al unui bean fara stare
+staitfull
+bean orientat pe mesaj si cum functioneaza
+stiva de program
+ce tehnologie suport cele mai comune pentru pesistenta datelor
+ce face spring core?
+AOP Spring vs altele
+ce este decuplarea prin interfete
+ce este injectarea dependentelor (cum era inainte de spring si cum este acum)
+diferenta dintre control invers si injectarea dependintelor
+ce este o metadata si care este rolul ei
+tipuri de containere
+ciclurile de viata a unui bean core
+ce este aspectul din AOP => o clasa specializata care poate fi aplicat aunui obiect (se aplica la runtime) si contine coduri necesare
+care sunt necesitatile transversale
+care sunt pasii pentru proiectarea AOP
+intretesere
+ce este un punct de join
+ce este un advise
+de cate tipuri pot fi adviserile in spring
+ce este un punct de taiere
+
+
+Laborator 3
+
+*compunerea serviciilor -> folosesc mai multe servicii pentru implementarea unui singur serviciu
+*orchestrare&coregrafia serviciilor
+orchestrarea->niste servicii care coordoneaza mai multe servicii
+coregrafia -> se apeleaza unul pe altul
+*compunerea recursiva a serviciilor
+*compunerea alternativa a serviciilor
+*care sunt principiile de baza SOA?
+*ce se poate spune despre arhitectura HW si SW
+*specificul proiectului
+*principiu de proiectare
+*standard de proiectare
+*ce inseamna calculul orientat pe servicii?
+*orientarea pe servicii
+*SWOT SOA-avantaje&dezavantaje
+*categorii de servicii
+*ce este un contract
+*ceva legat de agenti
+beean in Spring -> un obiect ce incapsuleaza o proprietate
+
+
+Laborator 4
+
+1. ce este principiul vizibilitatii serviciului?
+2. principiul abstractizarii serviciilor
+3. principiul abstractizarii contractului
+4. principiul compunerii serviciilor
+5. princiul compunerii 
+6. principul reutilizarii serviciilor
+7. principiul reutilizarii informatiilor ceva cu operatii
+8. princ. cuplarii scazute a serviciilor
+9. prin. granitelor unui serviciu
+10. problema dependentelor organizationale
+11. proiectarea u=orientat pe dentelor
+12. gaf-ul
+13. harta afacerii
+14. harta organizationala
+15. modelul functional
+16. portofoliul de aplicatii
+17. serviciile si produle in contextul gaf
+18. dependentele interne si externe la nivelul de date
+19 disiminarea datelor
+20. portofoliu tehnologic
+21. agregatorul
+22. magistrala de servicii
+23. dirijarea dinamica
+24. un consumator de evenimente
+25. un filtru
+26. un transformator
+
+Laborator 5
+
+1. diferenta dintre cloud computing si greed computing
+2. unde este plasat cloudul dpdv al evolutiei tehnologiei (cum a aparut)
+3. justificari economice ale aparitiei cloud-ului ->platesti pentru cat consumi
+4. ce este infrastructure as a service (ias)
+5. care au fost strategiile aplicate pentru ridicarea ias (problemele si solutiile)
+6. ce este virtualizarea?
+7. translarea binara
+8. tipuri de virtualizare
+9. ce ste virtualizarea la nivel de SO
+10. ce este cloud-ul
+11. care sunt caract. de baze ale norului
+12. autoservire la cerere
+13. tipurile de cloud
+14. ce este softwear as a service
+15. storeage as a service
+16. development as a service
+17. database asa service
+18. information and comunication as a service
+19. identity as a service
+20. monitoring as a service
+21. maas, taas 
+22. function as a service
+23. serveless computing
+24. xaas
+25. servicii Amazon
+26. centru de data cu 4 straturi
+27. hiperconvergenta
+28. o platforma de hiperconvergenta
+29. elasticitate in contextul cloud
+30. alcatuirea norului
+
+
+Laborator 6
+
+1. ce este imutabilitatea si importanta in microservicii
+2. care sunt avantajele arhitecturilor bazate pe evenimente? 
+3. care este solutia pt jee vs. microservicii
+4. un ,microserviciu la ora actuala
+5. granularitate hw si granularitate sw
+6. microservicii. avntaje si dezavantaje
+7. aplicatie monolit
+8. modulare si distribuire, proces unic
+9. aplicatie de tip blackbox
+10. ce probleme au monolitii si ce avantaje au
+11. cum pot rezolva partial problemele legate de monoliti
+12. business delever microserves
+13. matricea Zackman
+
+Laborator 7
+
+principiile SOLID pt micro-servicii? ce inseamna fiecare si cum se aplica
+ce e cubul scalarii? pe fiecare axa x,y,z
+ce este steaua mortii in cazul micro-serviciilor?
+ce este mecanismul de cache?
+ cache incapsulat, cache comun?
+modelul atas(un nume ciudat) pentru cache?
+service registry si service discovery?
+cum se face descoperirea serviciilor? autoinregistrare,... 
+ce e acela server si ce e un client? 
+la ce se refera ordonarea temporala conform Lanport(sau ceva de genul il cheama)?
+
+
+Laborator 8
+
+1. ce RXC?
+2. ce RXD?
+3. ce este un container?
+4. ce este Docker?
+5. ce este namespace in Docker sau Linux?
+6. cum se realizeaza izolarea resurselor in Docker/Linux?
+7. care este filosofia Docker?
+8. ce sunt serviciile si sarcinile lor?
+9. ce este Docker Gosip?
+10. cum se poate realiza multiplicarea serviciilor?
+11. ce este un port? 
+12. cum se pot containeriza servici?
+13. care sunt pasii de intalare si crearea unui Docker pentru microservicii?
+14. ce este un claster de container?
+15. ce probleme au containerele in cloud?
+16. orgastrarea containerelor si cum intervine in Docker
+17. arhitectura containerelor in Nor
+18. dezvoltare continua in nor
+19. argumente pro si contra Docker
+
+
+
+Laborator 9
+
+argumente contra docker
+analiza swot cu puncte contra pentru docker
+1. cateva argumente contra si cu explicatii
+2. docker compose
+3. docker sworm -orchestrator (un tool de manageriat mai multe containere) -> are mai multe noduri: master slave
+4. filtrele docker sworm
+5. cubernetis -> ce este docker sworm dar mai bun
+6. dezavantje pentru cubernetis
+7. apache mezos
+
+
+Laborator 10
+
+1. explicati descompunerea respectand regulile de afaceri cu RSA
+2. descompunerea pe subdomenii pentru microservicii 
+3. modelul sugrumatorului
+4. modelul compartimentat
+5. modelul portii API
+6. single point of failure
+7. modelul de proiectare pentru compunerea interfetei utilizator pentru client
+8. WSGI - varianta de API gateway 
+9. problema bazelor de date pentru un microserviciu
+10. modelul de proiectare SAGA
+11. modelul de proiectare albastru-verde (testul canarului) 
+12. calculul evolutiv
+13. arhitectura evolutiva
+
+Laborator 11
+
+1. care a fost evolutia arhitecturilor sistemelor distribyuite
+2. eveniment in cloud
+3. eveniment complex
+4. caract, comportamentul unui eveniment
+5. care sunt abordarile ahitecturale comune care ... paradigma eveniment
+6. swot evenimentul primo
+s: decodare, incapsulare, flexibilitate, 
+
+7. cum a aparut kafta si ce presupune : platforma de event streaming, de tipul publisher subscaibe, loguri de commituri
+8. cum arata o arhitectura eveniment
+9. ce este eda reactiv
+10. cadre de dezvoltare rapida
+11. intrebari puse inainte de inceperea proiectarii eda
+12. publish subscribe :))))
+13. pubish subscribe bazat pe topica
+14. modelul stocheaza si retrimite
+15. coz: xmp-ceva, amp, jms, mtmq (cred), 
+16. swot eda
+17. mediator vs broker 
+
+
+

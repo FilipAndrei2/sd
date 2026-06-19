@@ -1,0 +1,17 @@
+Microservicii
+
+- SOA - nu se poate aplica direct in microservicii 
+- ESB ???
+- lipsa de arhitecti soft
+
+Persistenta
+	- jdbc blocant
+	- imutabilitate Critic pt microservicii
+
+Arhitecturi bazate pe tratare de evenimente
+	- nu este nevoie de mapare relationala a obiectelor
+	(ev. sunt inregistrate)
+
+JBoss ???
+
+

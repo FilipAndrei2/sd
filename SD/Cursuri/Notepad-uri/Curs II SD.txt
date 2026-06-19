@@ -1,0 +1,133 @@
+(continuare Curs I)
+
+- Servicii web bazate pe REST
+
+* Java mai tine cel putin 30 de ani
+* JavaScript este cea mai proasta varianta pentru WEB (ca si cum ai folosi dot net pe microcontrollere)
+* NodeJS este acceptabil
+
+(vom aprofunda REST la alt curs)
+* REST : arhitectura iar SOAP : protocol
+
+
+- Servicii web bazate pe JEE / J2EE
+
+* API doar la aplicatii de vandut chiloti (abordarea populara a API), pe cand design pattern-ul API e total diferit si este foarte bun
+* start-up fara proiectare este praf
+* ORB / CORB
+* ???Java Beans 
+* POJO : ???
+* serializare???
+
+
+- Arhitectura JEE
+
+* jsp???
+* eis???
+* aplicatii client de sine statatoare (inclusiv web) (not web : sunt unele banci care au o aplicatie client conectata la banca mama)
+* pagini jsp si java beans
+* dezvoltate in java si sa respecte constrangerile framework-urile
+* ?? a janboxa
+* applet???
+* soft arch decide ce este mai bun pentru aplicatia respectiva
+* firefox mai bun decat chrome, deoarece chrome a restras multe plugin-uri din cauza problemelor de securitate 
+
+
+
+
+
+Sisteme distribuite - Curs II
+
+
+
+- Stratul Web al aplicatiei JEE
+* in nivelul client pot avea clase Java Beans
+* straturi amestecate 
+* monolit???
+* sistem de operare ca serviciu (de la chrome) ???
+
+- Componente de afaceri
+* niste cursuri de economie(!!)
+* bean entitate : statefull, persistent
+* bean sesiune
+* bean bazat pe mesaje : bean sesiune + sistem de gestiune a mesajelor asincrone
+* servicii vs microservicii????
+
+- Sistemul informational al intreprinderii
+* tot softul utilizat in intreprindere + soft de infrastructura
+* SAP???
+* cand proiectam NoSQL cu picioarele vor iesi costuri foarte mari
+
+- Java EE
+* foarte interesante si folositoare in combinatie cu microservicii
+* spring : super light alternativa la Oracle
+* buna in maniera in care este utilizata in limita termenilor lor
+
+- Containere
+* JNDI???
+* orice suporta supraincarcare in Java
+* imi ascunde tot procesul, dezvoltatorul ocupandu-se doar de fluxul de afaceri in ceea ce priveste arhitectura
+* containere : locul in care instalam aplicatiile, iar aceste containere adauga tot ce trebuie ca aplicatia sa mearga (plugins, depedendecies,etc) - se inghesuie totul in container
+* jar : impachetate clasic si cuplare ulterior, deci sunt vazut de sine statatoare
+* ear : fuck it!
+
+- Ciclu de viata a unui bean de sesiune
+	* fara stare : dependency injection, daca exista si post construct callbacks daca exista
+(Java are pointeri si acces la memorie!!nu se ocupa GC de tot)
+	* cu stare : creare, dependency injection, post construct, init method sau ejbCreate
+	* orientat pe mesaje : multe cozi (ca la stare)  (vezi mai bine in curs!)
+
+
+- Spring
+* dezvoltare usoara de aplicatii de intreprindere
+* scripturi de automatizare
+* linux pron???
+
+* soft arch : proiectare multilayer/tier si stabilirea technologiei folosite
+* stack-ul este particularizat in functie de proiect (gen full stack,etc) ???
+
+* persistenta : mysql, sqlite : oracle trebuie invatat
+* hibernet pt persistenta ???
+* AOP ??? (aspect oriented programming)
+
+* grandle si maven (bucataria din spate) colectie de scripturi, nu framework
+* mvc ???
+* AOP Java vs AOP Spring
+* container principal (core) : fabrica si gestiune de bean-uri]
+* scheduling : planificare statica
+* load balancing : planificare dinamica
+* struts, servlet, portlet, applet ?????
+
+
+* servicii extra : - web services
+				   - security
+				   - integration ???
+				   - batch ???
+				   - social : preluare date de la Fb si twitter pentru diverse analize statistice
+				   - mobile : (aplicatii care se muta)
+				   - dynamic modules
+				   - rich clent
+				   - .net
+				   - flex
+				   - roo : genereaza cod java
+				   (exista tools care genereaza cod pe baza diagramei arhitecturale)
+* extensii : - python
+			 - stocare blob (azur???)
+			 - persistenta bazata pe db4o si CouchDb??
+
+
+- Decuplarea prin interfete
+* incapsularea pe mai multe planuri
+* respectare SOLID
+* independenta cat mai buna prin separari
+
+
+- Injectarea dependentelor
+* operatie de scriere, verificare corectitudine, verificare destinatie si sursa corecte => fiecare se modeleaza separat, pe baza de obiecte si sa respecte si SOLID, adica fiecare dintre operatii sa poata fi folosita independent. putem si sa extindem clasa imbox cu aceste functionalitati dar pleaca SOLID instant 
+* injectare dependenta inseamna ca avem toate aceste servicii si facem ca email-ul sa depinda de ele.
+* injectia : esentiala in modelarea grafurilor de obiecte, doar ca incarca obiectul deci este problematica intrucat modifica intr-un colt
+dar strica in alt colt
+* o alternativa buna era fabrica de obiecte (acum 40 de ani)
+* control invers ???
+* metadata : descriere sintetica a ceva ???
+* XML 

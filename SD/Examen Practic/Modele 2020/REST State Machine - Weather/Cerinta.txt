@@ -1,0 +1,3 @@
+Sa se implementeze folosind Spring Boot si servicii rest un state machine,
+care sa raspunda unei cereri de determinare a temperaturii unui oras pentru mai multe ore,
+apoi sa realizeze coeficientii dreptei de regresie liniara pentru aceste date

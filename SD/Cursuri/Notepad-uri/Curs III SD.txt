@@ -1,0 +1,126 @@
+Sisteme Distribuite - Curs III
+
+
+
+* NU SOAP, CI SOA!!! *
+
+
+- proiectarea unei cladiri :  se rezerva suficient spatiu in jur astfel incat, daca se darama, sa nu afecteze cladirile din jur
+
+- SOAP : accelerarea ciclului de dezvoltare al aplicatiei
+		 nu proiectam un sistem de intreprindere gandindu-l izolat; 
+		 nu proiectam o aplicatie fara sa avem in vedere inter-relationarea cu alte aplicatii (eventual ale altor companii)
+
+- Steve Jobs : a furat o distributie de Linux, a adaptat-o cu un hard bunisor si voila casetofonul numit Mac
+
+- Structura intreprinderii : dezvoltare incrementala pornind de la o idee a carei dezvoltare poate creste exponential in functie de multi factori;
+							 necesita o serie de resurse 
+
+?? aplicatii monolit
+
+- ideea refolosirii care a pornit odata cu dezvoltarea bibliotecilor
+
+- la nivel de departament era un server in care erau toate aplicatiile si la nivel de intreprindere trebuia asigurata interoperabilitatea dintre toate aceste servere
+
+- cyperspace
+
+
+- Infrastructura tehnologica : infrastructura hardware prin care sunt instalate aplicatiile (nas, ups, routere, aere conditionate, sisteme de operare, agenti, baze de date, sistem de gestiune a
+cozilor de mesaje, adaptoare, middleware(???), solutii de securitate, etc)
+
+- dezvoltare personala : invata si hard si soft, deoarece va fi nevoie sa fie foarte bine inteleasa aceasta relationare pentru dezvoltarea aplicatiilor in contextului nivelului tehnologic din viitor
+
+- relatia afaceri : abordare preemptiva! daca dezvoltam aplicatia pentru 100 de useri dar vor veni 10000, ce facem ? reproiectam si reimplementam? not a good idea!
+
+- relatia intre app si mediu de utilizare : interoperabilitate stransa. cine raspunde de securitate ? tarile civilizate au standarde pe subiect 
+
+
+
+- specificul proiectului : rezulta din maniera de proiectare
+						   proiectarea e influentata si de arhitectura ei exterioara
+						   citire standard apoi alte vrajeli !
+
+- model de proiectare : design patterns : solutie validata empiric pentru specificul unei probleme
+
+- standard de proiectare : influetata mult de ideea si principiul de afaceri
+						   se pot adapta si la nivel particular
+						   suporta imbunatatiri continue
+						   standard proiectare != standard industrial
+
+
+- calcul orientat pe servicii : - platforme sau software pt calcul distribuit
+								- crearea entitati logice cu grad mare de izolare care pot fi utilizare si reutilizate intre ele pentru a servi proiectarii unei arhitecturi
+								- serviciu SOAP != serviciu din SO
+								- un IT-ist foarte bun intelege problemele de business (partea economica!)
+
+- costurile de IT sunt asa mari, serviciile foarte complexe carora li se aplica toate principiile contabilitati : beneficii, cat costa mentenanta, intretinerea, actualizarea, instalarea, dezvoltarea
+
+- grave probleme legale si de confidetialitate
+
+
+- serviciu : implementarea unui program sau a unei aplicatii care rezolva o anumita sarcina, avand in vedere o serie de principii SOAP sau de intreprindere
+			 componenta/modul nativ utilizata de mai multe aplicatii (monolit???)
+
+
+
+- in business, companiile mari ajung sa aiba piata stratificata si au o serie de clienti fructuanti si atunci se bat prin oferta personalizata ca sa ii aduca intr un anumit strat
+
+- SWOT SOA : A : * fiabilitate
+		 	 	 * scalabilitate
+		 	 D : * incarcare a sistemului (continuu, o aplicatie gen facebook : cand noi dormim, americanii nu dorm)
+		 	 	 * costuri initiale mari
+		 	 	 * gestiune complexa a serviciilor
+
+- monolit : am inlocuit o durere mare de cap cu mai multe dureri mici de cap (se proiecteaza prost!)
+
+- SOA : orchestrare : administrare si gestionare a mesajelor intervenite in interoperare
+					  (la ghiseu, cand las un plic care este distribuit in alta parte, in spate)
+
+- inventarul serviciilor : ca o carte de telefonie : colectie logica, care poate reprezenta o intreprindere sau o componenta de afaceri intr o intreprindere
+						   structura de tip top down
+
+- agnostic : serviciu total independent
+
+- oop -> component -> servicii -> microservicii -> serverless computing 
+
+- serviciu candidat : rafinare (la implementarea propriu zisa) : proiectare, asamblare, implementare, modificare, schimbari in contract, etc
+					  prima propunere asa cum e vazuta de intreprindere
+
+- 3 maniere de implementare a abordarii SOA : - JBeans
+											  - servicii web (o va matura serverless computing)
+											  - bazata pe componente
+			* bazata de componente :  incapsulare in serviciu  (bataie de joc referitor la resurse)
+			CRM, SAP ????
+									  Java, .NET
+
+			* servicii web : bazat pe scheme XML si cu probleme grave de securitate
+
+			* servicii REST (SOA) : simplitate, scalabilitate, reutilizare, pt chestiuni simple
+			(SOA != REST, REST este un <modul?> din SOA)
+
+- abstractizare serviciu 
+
+- stateless service : nu inseamna ca nu are stare, ci ca starea lui este salvata inafara
+
+- Caracteristici SOA : 
+			   * combinatie de framework-uri (probleme de securitate asa ca mai bine o dezvolti de la 0)
+			   * BD federative ???
+			   * strat uniform care ascunde servicile din spate si stratificarea
+			   * DevOps ???
+			   * DevSecOps ???
+			   * injectia dependentelor : nu modific serviciul primar ci mai adaug alte servicii pe care le injectez in serviciul primar (SOLID)
+			   * ROY/ROI ????
+			   * business driven
+			   * centrat pe intreprindere
+
+- Tipuri comune de SOA : - arhitectura serviciului
+						 - arch compunerii de servicii
+						 - arch catalogului de servicii
+						 - arch bazata pe servicii
+					* granularitati diferite (???granularitate, incearca sa intelegi bine ce e!)
+
+- VSDL, XSD ????
+
+- SLA???
+
+- serviciul nu e o clasa mai mare !!

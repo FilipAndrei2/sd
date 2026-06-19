@@ -1,0 +1,145 @@
+Sisteme distribuite :  Curs I
+
+- C/C++/Java
+
+- Spring
+
+- IntelliJ
+
+- Examen : Shell-uri laborator specifice SD (servicii si microservicii) +  probleme PP
+
+- sisteme strans cuplate : sute de metri intre componente (statii, procesoare, LAN sau BUS)
+	* supercomputere
+	* balbaielile automatistilor
+
+- sisteme slab cuplate (intre cladiri) : INTRALAN, internetul este in centru
+
+- (extra) : Intel baga ssd in core-ul de procesor
+
+- framework-uri care sa ascunda problemele de dependenta realizata in background, referitor la memorie (ce tine de frecventa, tip, etc)
+
+- avantaj framework : proiectare cu tot mai mult suport din spate (si in cazul sistemelor de operare)
+
+- acestea (framework-urile) au condus treptat la arhitectura Java
+
+- pana acum am facut aplicatii de tip MONOLIT (obiect si grad de dependeta mare intre obiecte) : daca-s multe obiecte : MARELE BULGARE DE NOROI (defect)
+
+- aplicatie clasica : 50 de ani (cu tot cu multe modificari)
+
+- alternativa mult mai buna care sa evite atata dependenta => servicii/microservicii : cresterea gradului de decuplare dintre componente
+
+- SUA/MSA : MicroService Architecture
+
+ - clasificarea lui Enslow : (slide cu dreptunghi)
+ 	* control centralizat & date distribuite : internetul partial (unele componente din Internet respecta)
+ 	* calcul distribuit : foarte important in viitorul Cyperspace, cu toate ca este din ce in ce mai neglijat si inlocuit
+
+ - date distribuite : abordare de baze de date distribuita +  ce va sa vina
+
+ - sisteme de calcul distribuit : 
+ 	* client-server (poate fi many to many si componentele pot avea alternativ ambele tipuri)
+ 	* retele senzor : aplicatii in care omului ii este greu sa intervina (senzori pe animale, etc)
+
+- IOT/IOE : dispozitive care preiau din mediul ambiant (bidirectional) informatii si se comporta ca un strat suplimentar pt CyberSpace 
+	* foarte diferit de retelele de senzori
+	* IOE : internet of everything
+
+
+
+- servicii suport la nivelul sistemelor de operare
+	* servicii de retea
+	* middleware (vezi daca asta e termenul) : pt aplicatii distribuite
+		** (extra) : basic : get post react (asta percep unii ca fiind SD)
+
+- Mike se da smecher ca stie despre 6G 
+
+- HPC (High Performace Computing) : supercomputere (tot parterul AC plin cu RAC-uri cu sisteme de calcul complexe, folosite de guvern, armata si sunt fucking scumpe)
+											* modelari meteo, modelari ale scoartei terestre, this king of shit
+
+- sistem distribuit != sistem de fisiere distribuit
+
+- SD : 
+	avantaje : * costuri reduse
+	   		   * modularitate si flexibilitate
+	   		   * fiablitate (prin replicare : (!!!) sisteme K tolerante) 
+	   		   * integritate								
+	   		   * (!!!) referitor la propagarea informatiilor intre sisteme dependente in care se produc modificari : lazyapplication
+	   		   * performanta : discutabil : definita strict in contextul problemei implementate
+	dezavantaje : * intarziere : in cazul analizei de semnal : esantion trimis prin retea (=> intarziere) ca sa ajunga intr-un loc in care se face analiza generala asupra intregului sistem
+				  * lipsa unui timp global : sincronizare ceasuri pt coerenta date la reconstructie
+				  * nedeterminism : pisica lui Schrodinger (ex: TCP/IP : pachete ajung aiurea si trebuie ordonate la destinatie , adica nu se poate precize cum ajung acele pachete dar se rezolva prin ordonare)
+				  * securitate (foarte slaba)
+
+- sisteme k tolernate : exemplu lift : pt functionare e nevoie de un singur cablu, dar se folosesc 3 pentru siguranta (=> 3 tolerant)
+
+
+
+- arhitectura multinivel-multistrat : mai multe niveluri care au mai multe straturi 
+- decuplarea functionalitatilor (!!!) : (mai multe in cursul II)
+	* SOLID
+
+- injectarea dependentelor (mai multe in cursul II, deci stai chill pana saptamana viitoare) : (!!!)
+	* proxy
+	* apel de constructor
+	* se poate face manual/automat
+
+
+
+
+
+
+
+
+
+
+
+Componente software
+
+
+- granularitate software : OOP
+
+- paradigma post OOP : CBSE (Component Based shit !!!)
+
+- procedural vs oop vs cop : compozabilitate & interschimbarea
+	* COP :  component oriented programming
+
+- regula germana :  creierul poate gestiona maxim 50 de obiecte :)
+
+- Java Beans (!!!)  : (clasa special construita) componentele/module din java (beans : componentele) comunica intre ele  
+						* serializabila
+						* (!!!) cum impiedici serializarea ?
+
+- CORB (!!)  
+	* broker 
+	* rol proxy (!!!)
+	* rol design pattern bridge(!!!)
+
+
+- Fluxul de business al unei afaceri medii (!!!)
+
+- citire standard OOP (!!!)
+
+
+
+- JAVA RMI (!!!)
+	* registru ce tine evidenta obiectelor (?)
+	* ideea de stub (!!!)
+	* 
+
+
+- stub : o aplicatie n-are nevoie de toate obiectele ca sa lucreze asa ca aducem toate obiectele critice apoi aducem si restul si daca era nevoie de un obiect (de ex in cazul compilarii) se folosea un fel de proxy 
+		(stub) care aducea si obiectul respectiv
+
+- (off topic :  despre cafea, daca chiar e buna sau nu !!!)
+
+
+
+
+- Serviciile
+	* parte a economiei care deseverste o nevoie mai putin complexa (!= bun, adica sa iei un MAC se considera ca iei un bun, iar daca mergi cu el la reparat, ti se ofera un serviciu)
+	* servicii web : colectie de API (folosire de elemente comune ?) care coopereaza la indeplinirea unei sarcini 
+	* REST (substandard HTTP care nu prea are securitate !!!)
+	* HTTP/HTTPS : securitate "canci"
+	* SOAP (!!!) - accent pe protocol (clasic, dar in prezent se foloseste doar cu HTTP)
+	* tot ce are REST/HTTP in spate are securitate proasta
+	* servicii web : publish find & bind

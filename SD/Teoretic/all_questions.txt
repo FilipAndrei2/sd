@@ -1,0 +1,432 @@
+ce este un sistem distribuit
+care este diferenta intre sistemele strans si slab cuplate
+ce contine modelul Li pentru un sistem distribuit
+ce inseamna arhitecturi software strans si slab cuplate
+care sunt dimensiunile specifice modelului Enslow
+dati exemple de sisteme distribuite si plasati-le in spatiul Enslow
+ce sunt sistemele distribuite integrate
+ce suport ne ofera sistemele de operare pentru a putea dezvolta un sistem distribuit
+enumerati cateva avantaje ale unui sd
+enumerati cateva dezavantaje ale unui sd
+ce inseamna arhitectura multivel-multistrat?
+dati exemple de arhitecturi multinivel-multistrat
+explicati controlul functionalitatilor
+ce inseamna control invers
+explicati injectarea dependentelor
+ce inseamna o componenta software
+explicati paradigma post oop - cbse
+enumerati cateva solutii arhitecturale orientate pe componente
+ce este java rmi
+definiti notiunea de serviciu dpdv economic
+definiti serviciile web
+care sunt standardele specifice serviciilor web
+care este diferenta intre propunerea initiala unui serviciu web si ce s-a obtinut
+ce contine stiva de servicii web dezvoltata de sun
+care este diferenta intre ejb si jv
+care este diferenta intre pojo si jb
+explicati limitarile arhitecturale ale abordarii jee
+enumerati componentele majore ale jee
+arhitectura jee este coerenta dpdv al abordarii multilayer-multitier?
+daca nu unde este problema?
+ce se intampla la nivelul eis?
+dar la nivel server sau la cel client in jee?
+ce este un eis?
+care este rolul unui container in abordarea jee?
+ce configurari minimale trebuie realizate asupra unui container jee?
+cum se utilizeaza concurenta la nivel de containere in jee?
+explicati impachetarea componentelor unui container
+explicati ciclul de viata al unei fasole seiune fara stare
+dar a luneia cu stare?
+ce este o fasola orientata pe mesaj si cum functioneaza?
+ce este spring?
+care sunt avantajele framework-ului spring 
+care este rolul stivei de programe in cadrul proiectarii generale?
+cand se creaza aceasta de fapt?
+ce tehnologii suport pentru persistenta sunt cele mai comune
+cum se automatizeaza dezvoltarea aplicatiilor client?
+cu ce se ocupa core spring?
+ce este aop?
+implementarea aop din spring are limitari?
+daca da care sunt acestea?
+care este rolul stratul de acces si integrare?
+ce ofera pentru accesul la distanta spring?
+ce model de proiectare este utilizat in acest modul
+expplicati decuplarea prin interfete
+explicati injectarea dependentelor inainte de spring
+dar in spring?
+cate forme avem in spring si prin ce difera?
+explicati diferenta intre controlul invers si injectarea dependentelor
+ce este o metadata si care este roulul ei in injectia dependentelor
+ce tipuri mari de containtere spring avem?
+explicati ciclul de viata al unei fasole spring 
+prin ce difera de jee si de ce?
+ce este aspectul
+ce sunt conceptele/necesitatile transversale - crosscutting concercs
+enumerati pasii specifici proiectarii aop
+ce este procesul de intretesere? weaving
+care este diferenta intre un obiect si o functie tinta?
+ce este un punct de tesere/unire?
+ce este un advice ?
+de cate tipuri pot fi?
+ce este un punct de taiere?
+explicati conceptul de arhitectura a aplicatiilor hw/sw
+ce este arhitectura unei tehnologii
+care sunt tipurile unei arhitecturi ale unei tehnologii?
+explicati-le pe fiecare
+la ce se refera conceptul de arhitecturi moderne in contextul soa dar al msa?
+ce inseamna o infrastructura tehnologica si ce contine aceasta
+care este relatia afaceri - infrastructura suport
+la ce se refera specificul proiectului
+dar principul de proiectare
+dar modelul de proiectare
+dar standardul de proiectare?
+ce inseamna calculul orientat pe servicii
+la ce se refera orientarea pe servicii
+ce inseamna o arhitectura orientata pe servicii
+ce este un serviciu si cum se reprezinta schematic in proiectarea primara
+la ce se refera capabilitatile unui serviciu
+swot soa avantaje? care sunt dezavantajele
+ce categorii de srvicii avem in soa
+ce inseamna si cum se modeleaza compunerea serviciilor
+ce inseamna inventarul serviciilor
+la ce se refera analiza orientata pe servicii
+ce este un serviciu candidat?
+cun se intelege un serviciu implementat pe componente in cadrul soa
+ce inseamna un serviciu web dpdv soa
+enumerati si explicati principiile proiecatrii soa
+care au fost telurile strategice ale soa?
+care sunt caracteristicile principale ale soa
+care sunt tipurile comune de soa
+ce inseamna arhitectura serviciului
+care este rolul standardelor de proiectare in proeictarea si implementarea soa
+ce inseamna contractul unui serviciu
+cum se descrie concretce sunt agentii serviciului?
+la ce se refera functionalitatile unui serviciu
+ce inseamna arhitectura de compunere a serviciilor cum se descrie
+ce inseaman si cum se descrie compunerea recursiva a serviciilor
+la ce se refera compunerea alternativa a serviciilor
+ce este o arhitectura de compunere
+explicati arhitectura orientata pe servicii pentru o intreprindere ce poate contine 
+enumerati si explicati principiile de baza ale soa
+principiul vizibilitatii serviciului
+contractul standard al unui serviciu
+principiul abstractizarii serviciilor
+principiul abstractizarii contractului
+principiul compunerii serviciilor
+principiul autonomiei relative a serviciului
+principiul reutilizarii serviciilor
+principiul gestionarii informatiilor despre starea serviciului
+principiul cuplarii scazute a serviciilor
+principiul granitelor unui serviciu
+de ce este contestat soa din 2013
+cum s-a ajuns la confuzia cu tehnologia
+problema dependentelor organizationale
+ce este proiectare orientata pe dependente
+ce este togaf
+ce este harta de afaceri
+ce este harta organizationala
+ce este modelul functional
+ce este portofoliu de aplicatii
+ce sunt serviciile si produsele in context togaf
+ce este statul de artefacte si de unde apare
+ce sunt dependentele intre date
+ce sunte dependentele externe intre date
+ce este diseminarea si proprietatea datelor
+ce inseamna portofoliu tehnologic
+ce este agregatorul
+ce este magistrala de servicii
+ce este dirijarea dinamica
+ce este un consumator de evenimente dar un flitru
+ce este transformatorul
+ce este podul
+la ce se refera operatiile intre servicii
+dar distribuirea bazata pe evenimente
+la ce se refera contractele concurente dar descompunerea
+explicati modelul de proiectare pentru compunere
+ce este anuntarea incetarii functionarii si la ce ne trebuie
+care este diferenta intre grid si cloud computing
+unde este plasat norul dpv al evolutiei tehnologiei?
+care sunt justificarile economice pentru aparitia acestei solutii
+ce este iaas
+care au fost strategiile utilizate pentru gestiunea problemelor ridicate de iaas
+la ce se refera translarea binara? explicati
+ce este virtualizarea?
+enumerati tipurile de virtualizare
+explicati virtualizarea completa
+explicati hypervisor-ul de tip 2
+explicati paravirtualizarea
+explicati virtualizarea hibrida
+ce inseamna virtualizarea la nivel de sistem de operare
+este recomandata portarea ca solutie de utilizare a norului
+definiti norul
+enumerati si explicati caracsticile de baza ale norului
+enumerati si explicati componentele calcului in nor
+enumerati si explicati tipurile de nori
+ce este saas
+ce este aas
+care sunt caracteristicile cheie ale saas
+ce este paas
+ce este iaas
+enumerati masurile minime necesare obtinerii de disponibilitate si fiabilitate in iaas
+explicati gestiunea si interoperabilitatea in iaas
+explicati cateva aspecte legate de perfomanta si optimizare in iaas
+la ce se refera accesibilitatea si portabilitatea in iaas
+ce reprezinta storage as a service
+dar development as a service
+dar database as a service
+dar information as a service
+dar comunication as a service
+dar identity as a service
+dar monitoring as service
+dar proces or integration as a seervice
+ce este maas
+ce este taas
+la ce se utilizeaza backup as a service?
+ce este function as a service?
+ce este xaas
+care sunt serviciile amazon mai importante specifice norului
+ce este un centru de calcul cu patru straturi
+ce este hiperconvergenta
+ce este o platforma hiperconvergente
+explicati pe scurt arhitectura norului - ca evolutie fireasca de fapt
+ce se rezolva in nivelul de prezentare al norului
+cum s-a ajuns la elasticitate - modelul initial economic
+ce este elasticitatea in contextul norului
+excplicati multiplicarea pe verticala sau pe orizontala in nor
+ce gestioneaza nivelul logic al norului
+ce gestioneaza nivelul de persistenta al norului
+cum arata la ora actual modelul de securitate al norului
+ce este o infrastructura convergenta
+dar una hiperconvergenta
+swot pe infrastructurile hiperconvergente
+explicati notiunea de arhitectura slab cuplata in contextul norului
+de ce este asa de important conceptul de imutabilitate pentru microservicii
+care sunt avantajele arhitecturilor bazate pe evenimente
+care sunt problemele jee in interactiunea cu containerele
+care sunt solutia la problema jee vs userv
+de ce a aparut problema anterioara?
+explicati originea termenului de userv si percetia lu i ora actuala
+explicati modificarile aparute in proiectare cu userv fata de soa dpdv al proprietarului unui serviciu
+explicati granularitatea sf dar pe cea hw
+userv - pro - enumerati
+userv - contra - enumerati
+explicati aplicatia monolit
+ce este monolitul cu ces unic
+dar cel modular
+dar cel distribuit
+explicati aplicatiile de tip cutie neagra
+care sunt problemele comune monolitilor
+care sunt avantajele monolitilor
+cum se pot partial carpaci problemele monolitior distribuiti in abordarile moderne
+la ce se refera microserviciile tactice
+la ce se refera microserviciile strategice
+la ce se refera bussiness driven userv
+explicati ifecare pas din metodologia de proiectarea bazata pe userv
+de ce am folosit ontologia zachman
+de ce trebuie sa luam in considerare teorema cap in proiectarea bazata pe userv
+explicatproblemele de cuplare vs coeziune in cazul userv
+ce este ascunderea informatiilor
+ce este cuplarea temporala
+ce este cuplarea la instalare
+care este probelema cuplarii domeniilor
+ce solutii posibile exista
+explicati agregatul analiza swot
+ce inseamna contextul marginit
+api-urile - chiar sunt asa de recomandate?
+1. explicati principiul deschis inchis in cazul microserviciilor
+2. explicati substitutia Liskov in cazul microserviciilor
+3. explicati principiul separarii interfetelor in cazul microserviciilor
+4. explicati principiul controlului invers in cazul microserviciilor
+5. ce este cubul scalarii microserviciilor
+6. ce avem pe axa x
+7. ce avem pe axa y 
+8. ce avem pe aza z
+9. explicati steaua mortii in contextul microserviciilor
+10 . ce este mecanismul de caching si cand se utilizeaza in cazul microserviciilor
+11. explicati modelul de cache incapsulat
+12.  explicati modelul de cache comun - cum i se mai spune
+13.  explicati modelul de cache client server
+14.  explicati modelul de cache in nor
+15.  explicati modelul sidecar
+16.  explicati modelul inverse proxy
+17. cum se combina inverse proxy cu side car
+18. cum se face descoperirea serviciilor la nivel de client
+19. dar la nivel de server?
+20. ce este autoinregistrarea unui serviciu
+21. cand se folosesc serviciile externe pentru inregistrarea userv
+22. explicati urmarirea distribuita
+23. la ce se refera ordonarea temporala cf lamport
+24. ce este cauzalitatea in contexul urmaririi distribuite
+25. cum se face urmarirea distribuita a aplicatiilor asincrone in spring
+26. cum se poate face urmarirea distribuita in docker
+27. explicati conceptul de instrumentatie bazata pe agenti
+28. ce este observabilitatea intr-o plasa de userv
+29. explicati upfront sampling
+30. explicati probabilistic sampling
+31. explicati sampling-ul cu limitarea ratei
+32. explicati achizitia probabilistica cu ieșire garantata  
+33. explicati achizitia adaptiva
+34. care sunt cei trei piloni ai observabilitatii
+35. ce este propagarea contextului distribuit
+36. explicati planul brown de urmarire
+37. care sunt componnetele specifice al unui pipeline cu data mining
+38. ce probleme pot aparerea la utilizarea coregrafiei in proiectare
+39. la ce se refera cei 6 R
+40. explicati rehost
+41. explicati replatform
+42. explicatrefactor
+43. cum sta msa cu securitatea la ora actuala - explicati
+explicati descompunerea urmand regulile de afaceri pt msa
+explicati descompunerea pe subdomenii pt msa
+explicati modelul sugrumătorului 
+explicati modelul compartimentat
+explicati modelul porții API pt msa
+explicati modelul compunere
+explicati modelul cu poartă pentru dirijare
+explicati microserviciile înlănțuite
+explicati modelul ramificației in msa
+prezentati modelul de proiectare pentru compunerea interfaței utilizator pentru client
+prezentati problema bazelor de date pentru un serviciu
+prezentati baza de date comună pentru un microserviciu
+ce este inpărțirea responsabilităților în crearea unei interogări
+prezentati modelul de proiectare SAGA
+explicati compunerea jurnalelor de execuție
+prezentati modelul de proiectare pentru metrici de performanță
+prezentati modelul de proiectare pentru urmărire distribuită
+prezentati modelul de proiectare pentru verificarea sănătății
+prezentati modelul de proiectare pentru Configurație externalizată
+prezentati modelul de proiectare pentru descoperirea serviciilor
+explicati modelul de proeictare cu siguranță 
+explicati modelul de proiectare albastru-verde 
+ce este calculul evolutiv
+definiti arhitectura evolutiva
+explicati notiunea de dimensiune
+explicati notiunea de fitness asupra unor dimensiuni
+cum se leg dimensiunile pentru analiza de fitness
+cum se definesc funcțiile pentru fiecare dimensiune
+explicati utilizarea pipe-urilor de instalare pentru automatizarea functiilor de fitness
+la ce se refera Necunoașterea problemelor necunoscute
+prezentati regulile generale de proiectare a unei arhitecturi software evolutive
+cum se asigura reversibilitatea deciziilor in nor
+ce sunt si cum se creaza straturile de anticoruptie
+ce este un template pentru microservicii si la ce este necesar
+explica regula proiectat pentru schimbare in nor
+explicati cum se gestioneaza schimbarea externa
+cum se rezolva dilema menținerii la zi a bibliotecilor vs. cadre de dezvoltare
+la ce se refera utilizarea livrarii continue în locul instantaneelor
+cum se gesioneaza intern versiunile de servicii
+prezentati modelele de procesare ale datelor
+ce este bounded data
+ce sunt unbounded data
+ce este procesarea pe sesiuni
+ce contin fluxurile de date continue
+enumerati metodele de filtrare ale datelor
+ce este filtrarea
+ce algoritmi pentru aproximarea organizata dupa un set de criterii dorite sunt mai cunoscuti
+ce tipuri de ferestre avem in procesarea datelor 
+care este diferenta dintre sesiuni si ferestre lunecatoare
+ce sunt ferestrele cu partitionare în funcție de timpul de procesare
+ce sunt ferestrele cu partitionare după timpul de apariție a evenimentelor
+la ce se refera monitorizarea continua sil devsecops
+care sunt cele patru planuri ale unei arhitecturi bazate pe fluxuri de evenimente
+cu ce se ocupa planul logicii de afaceri
+cu ce se ocupa planul de instrumentatie
+cu ce se ocupa planul de control
+cu ce se ocupa planul operational
+cu ce se ocupa logica aplicatiei in planul operationale
+cu ce se ocupa jurnalele de erori in planul operationale
+cu ce se ocupa jurnalele de securiate in planul operationale
+cu ce se ocupa informatiile pentru restaurare in planul operationale
+cu ce se ocupa cozile pentru mesaje pierdute in planul operationale
+cum arata un model de instalare
+care este originea termenul de serverless
+Unde se află sevrless în contextul tehnologic? (discutie pe diagrama venn)
+ce este Serverless Working Group - CNCF
+care este modelul de functionare al FaaS
+Care este totuși diferența între PaaS și FaaS?
+FaaS este așa de important?
+prezentati matricea de selectie pentru FaaS
+explicati relatia dintre Evenimentul primul și FaaS
+FaaS Când Da și Când Nu pentru procesarea flux
+care este relatia dintre FaaS și procesarea pe flux
+care sunt performanțele FaaS în procesarea pe flux
+prezentati arhitectura FaaS - nivelurile Sistem
+prezentati arhitectura FaaS - nivelurile FaaS
+care sunt aomponentele OpenFaaS
+cum arata infrastructura internă a OpenFaas executată pe Docker
+ce face funcția de monitorizare - watchdog in faas
+cum se realizeaza scalarea FaaS în Docker
+prezentati AWS Lambda
+cum se realizeaza oprirea execuției unei functii Lambda AWS 
+ce sunt functiile durabile Azure
+cum arata FaaS în norul Google 
+Ce este edge computing?
+cum vede IBM ServerLess-ul și IoT-ul
+ce ofera Arhitectura OpenWisk
+cum se aplica OpenWisk&Docker
+Ce urmează după serverless?
+Care ar putea fi viitorul FaaS?
+explicati rezilienta unei aplicatii distribuite
+care sunt posibilele evolutii ale conceptului de rezilienta
+explicati devops
+explicati virtualisation sprawl
+ce este cu pescuitul in nor
+ce este un siloz de date
+ce probleme induc silozurile de date
+ce este cu silozuri NetOps si SecOp
+ce se intampla cand se combina agile cu devops
+ce este devsecops
+care sunt dimensiunile devsecops
+ce avantaje ofera devsecops
+explicati cilul de aplicare a devsecops
+unde intervine securitatea in devsecops
+ce este beneficiarul in agile
+cum este echipa in agile
+care este ciclul agil(tat)
+ce este sprintul in agile
+ce este stapanul scrum-ului
+cum se poate utiliza agile in devsecops
+cum este abordarea dod pent devsecops si agile scrum
+ce cumprinde ciclul de viata al devsecops
+care sunt pilonii in devsecops
+ce contine un ecosistem devsecops
+explicati fabrica de software
+cu ce se ocupa serviciul de containere
+ce principii de baza pentru constructia unei fabrici de software avem
+ce este integrarea continua
+ce este livrarea continua
+ce este ci-cd in nor
+explicati CI - CD în operații
+detaileati aplicarea masurilor de securitate in devsecops
+enumerati cateva instrumente specifice asigurarii securitatii in devsecops
+Cum intervine testarea în diverse etape ale lanțului CICD
+enumerati cateva instrumente utilizate in devsecops
+ce abordari sunt specifice testarii continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
